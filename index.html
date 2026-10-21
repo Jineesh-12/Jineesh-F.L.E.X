@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jineesh Tadvi — Personal Profile</title>
+  <meta name="description" content="Jineesh Tadvi — developer and builder of F.L.E.X., a cross-platform file-transfer app.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 2. CUSTOM CURSOR -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- 3. 3D CANVAS -->
+  <canvas id="scene"></canvas>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a class="logo" href="#top" data-hover>Jineesh<span>Tadvi</span></a>
+    <nav>
+      <a href="#features" data-hover>About</a>
+      <a href="#orbit" data-hover>Interests</a>
+      <a href="#cta" data-hover>Connect</a>
+    </nav>
+    <button id="sound-toggle" data-hover aria-label="Toggle sound">Sound: <b>off</b></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow reveal">Hello, I'm</p>
+      <h1 class="reveal">JINEESH <em>TADVI</em></h1>
+      <p class="sub reveal">Developer and builder creating F.L.E.X., a cross-platform file-transfer app. I turn ideas into fast, clean, real-time web experiences.</p>
+      <div class="actions reveal">
+        <a href="#cta" class="btn primary" data-hover>Get in touch</a>
+        <a href="#features" class="btn" data-hover>About me</a>
+      </div>
+      <div class="scroll-hint">Scroll</div>
+    </section>
+
+    <section id="features" class="block">
+      <h2 class="reveal">A little about me</h2>
+      <div class="grid">
+        <article class="card reveal" data-hover><i>01</i><h3>Introduction</h3><p>I'm Jineesh Tadvi, a developer who loves building products that feel fast, simple and polished from the first tap. 😎</p></article>
+        <article class="card reveal" data-hover><i>02</i><h3>Education</h3><p> Degree BE (Computer Science) at VGEC College. Always learning by building real projects alongside my studies.</p></article>
+        <article class="card reveal" data-hover><i>03</i><h3>Skills</h3><p>React, TypeScript, Vite, Tailwind CSS, Node.js, WebSockets, WebRTC and Progressive Web Apps.</p></article>
+        <article class="card reveal" data-hover><i>04</i><h3>Projects</h3><p>F.L.E.X. — a product family for private file sharing, group chat and PDF tools, connected through QR pairing and peer-to-peer transfer. FOR Ex is there -- >></p></article>
+        <a class="card reveal" href="https://clipmind-ai.ai.studio" target="_blank" rel="noopener" data-hover><i>Project i</i><h3>FLEX Size</h3><p>A live project built with Google AI Studio. Tap to open the app.</p></a>
+        <a class="card reveal" href="https://untitled-1502.ai.studio" target="_blank" rel="noopener" data-hover><i>Project ii</i><h3>FLEX Share</h3><p>Private file transfer between devices using QR pairing and peer-to-peer WebRTC. Tap to open the app.</p></a>
+      </div>
+    </section>
+
+    <section id="orbit" class="block center">
+      <h2 class="reveal">What keeps me curious</h2>
+      <p class="sub reveal">Real-time web, peer-to-peer tech, 3D on the web and interfaces with depth. Move your cursor ~⭐ the field bends toward you.</p>
+      <div class="stats">
+        <div class="reveal"><b data-count="3">0</b><span>F.L.E.X. products</span></div>
+        <div class="reveal"><b data-count="15">0</b><span>PDF tools built</span></div>
+        <div class="reveal"><b data-count="1">0</b><span>flagship app</span></div>
+      </div>
+    </section>
+
+    <section id="cta" class="block center">
+      <h2 class="reveal">Let's connect (check my Insta)</h2>
+      <a href="https://instagram.com/jineesh_90?dlrf=MXAzN3d2ODRkaXliNA%3D%3D" target="_blank" rel="noopener" class="btn primary big reveal" data-hover>Follow on Instagram</a>
+    </section>
+  </main>
+
+  <footer><h3>© 2058 Jineesh Tadvi. All rights reserved.</h3></footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
